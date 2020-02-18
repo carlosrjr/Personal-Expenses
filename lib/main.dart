@@ -18,19 +18,21 @@ class MyHomePage extends StatelessWidget {
     return Center(
       child: Scaffold(
         appBar: AppBar(title: Text('Despesas Pessoais')),
-        body: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: <Widget>[
-            Container(
-              width: double.infinity,
-              child: Card(
-                child: Text('Gráfico'),
-                color: Colors.blue,
-                elevation: 5,
+        body: SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: <Widget>[
+              Container(
+                width: double.infinity,
+                child: Card(
+                  child: Text('Gráfico'),
+                  color: Colors.blue,
+                  elevation: 5,
+                ),
               ),
-            ),
-            TransactionUser()
-          ],
+              TransactionUser()
+            ],
+          ),
         ),
       ),
     );
