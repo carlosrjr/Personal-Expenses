@@ -1,1 +1,1 @@
-# Personal-Expenses
+# App para registrar e gerenciar suas despesas pessoais.
