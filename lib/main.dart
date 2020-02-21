@@ -12,6 +12,7 @@ class ExpensesApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      title: "Despesas Pessoais",
       home: MyHomePage(),
       theme: ThemeData(
         primarySwatch: Colors.purple,
